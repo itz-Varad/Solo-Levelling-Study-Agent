@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+/* Global font */
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Main titles */
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    text-shadow:
+        0 0 10px rgba(100,150,255,0.5),
+        0 0 20px rgba(100,150,255,0.2);
+}
+
+/* Section headers */
+h2, h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] * {
+    font-family: 'Inter', sans-serif;
+}
+
+.stButton button {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.stApp {
+    background: #050505;
+    color: white;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #0a0a0a;
+    border-right: 1px solid rgba(0,255,255,0.15);
+}
+
+/* Inputs */
+textarea,
+input {
+    background: #101010 !important;
+    color: white !important;
+    border: 1px solid rgba(0,255,255,0.25) !important;
+
+    box-shadow:
+        0 0 10px rgba(0,255,255,0.20),
+        0 0 30px rgba(0,255,255,0.10);
+}
+
+/* Buttons */
+.stButton button {
+    width: 100%;
+    border-radius: 10px;
+    background: #121212;
+    border: 1px solid rgba(0,255,255,0.25);
+    transition: 0.3s;
+}
+
+.stButton button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 15px rgba(0,255,255,0.25);
+}
+
+h1, h2, h3 {
+    color: white;
+}
